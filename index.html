@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sherloc - Seu Guia de Viagem Inteligente</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="js/theme-loader.js"></script>
+</head>
+<body class="landing-body">
+
+   <header class="floating-header">
+    <div class="header-logo">
+        <i class="bi bi-compass"></i>
+        <span>Sherloc</span>
+    </div>
+    <div class="header-separator"></div>
+    <nav class="header-nav">
+        <a href="/auth.html">Login</a>
+        <a href="/auth.html" class="nav-button-primary">Cadastre-se</a>
+    </nav>
+</header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Seu Acesso ao Mundo das Descobertas</h1>
+                <p>Armazene seus locais favoritos, use o mapa para explorar e acesse todas as funcionalidades com nosso aplicativo.</p>
+                <div class="hero-buttons">
+                    <a href="/auth.html" class="btn btn-primary">Comece a Usar</a>
+                    <a href="#" class="btn btn-secondary">Ver Vídeo</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x350/005C4B/FFFFFF?text=Mockup+Sherloc" alt="Mockup do App Sherloc">
+            </div>
+        </section>
+
+        <section class="features-grid-section fade-in-section">
+            <h2>Uma Solução para Todas as suas Necessidades de Viagem</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="bi bi-shield-check"></i>
+                    <h4>Conexão Ultra Segura</h4>
+                    <p>Sua conexão é protegida com protocolos de ponta.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="bi bi-pin-map-fill"></i>
+                    <h4>+500 Cidades e Locais</h4>
+                    <p>Encontre pontos de interesse em centenas de cidades.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <h4>Aumente seus Roteiros</h4>
+                    <p>Planeje e organize suas viagens de forma inteligente.</p>
+                </div>
+                <div class="feature-item">
+                    <i class="bi bi-check2-all"></i>
+                    <h4>Todas as Operações</h4>
+                    <p>Execute diferentes ações com as ferramentas disponíveis no app.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="design-carousel-section fade-in-section">
+            <div class="carousel-header">
+                <h2>Escolha seu Roteiro Exclusivo</h2>
+                <div class="carousel-nav">
+                    <button id="carousel-prev"><i class="bi bi-arrow-left"></i></button>
+                    <button id="carousel-next"><i class="bi bi-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="carousel-wrapper">
+                <div class="carousel-container">
+                    <div class="design-card">
+                        <div class="card-image bg-blue"></div>
+                        <p>Roteiro Urbano</p>
+                    </div>
+                    <div class="design-card">
+                        <div class="card-image bg-yellow"></div>
+                        <p>Aventura na Montanha</p>
+                    </div>
+                    <div class="design-card">
+                        <div class="card-image bg-black"></div>
+                        <p>Exploração Histórica</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section fade-in-section">
+            <h2>Perguntas Frequentes</h2>
+            <div class="faq-accordion">
+                <div class="faq-item">
+                    <button class="faq-question">O que é o Sherloc?</button>
+                    <div class="faq-answer"><p>Sherloc é uma plataforma para descobrir, salvar e avaliar locais de interesse, ajudando você a planejar suas viagens com dicas de uma comunidade global.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Preciso pagar para usar?</button>
+                    <div class="faq-answer"><p>Não, o Sherloc é totalmente gratuito para todos os usuários.</p></div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">Posso usar o mapa offline?</button>
+                    <div class="faq-answer"><p>Sim, a funcionalidade de mapas offline está disponível para que você possa acessar seus locais salvos mesmo sem conexão com a internet.</p></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mega-footer">
+    <div class="footer-grid">
+        <div class="footer-cta">
+            <h2>Vamos começar um novo roteiro?</h2>
+            <p>Junte-se a milhares de outros exploradores. Crie sua conta gratuitamente.</p>
+            <a href="/auth.html" class="btn btn-primary btn-lg">Criar Minha Conta</a>
+        </div>
+
+        <div class="footer-info">
+            <div class="footer-contact">
+                <h4>Fale Conosco</h4>
+                <a href="mailto:contato@sherloc.com">contato@sherloc.com</a>
+            </div>
+            <div class="footer-links-modern">
+                <a href="#">Sobre Nós</a>
+                <a href="#">Comunidade</a>
+                <a href="#">Funcionalidades</a>
+            </div>
+            <div class="footer-socials-modern">
+                <a href="#" title="GitHub"><i class="bi bi-github"></i></a>
+                <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom-modern">
+        <p>&copy; 2025 Sherloc. Um projeto de TCC com design arrojado.</p>
+    </div>
+</footer>
+
+<div id="theme-modal-overlay" class="theme-modal-overlay">
+    <div class="theme-modal-content">
+        <h3>Bem-vindo ao Sherloc!</h3>
+        <p>Escolha uma aparência para começar sua experiência.</p>
+
+        <div class="theme-options-grid">
+            <div class="theme-option-card active" data-theme="light">
+                <div class="theme-preview theme-preview-light"></div>
+                <strong>Tema Claro</strong>
+                <span>Uma experiência limpa e natural.</span>
+            </div>
+
+            <div class="theme-option-card" data-theme="dark">
+                <div class="theme-preview theme-preview-dark"></div>
+                <strong>Tema Escuro</strong>
+                <span>Perfeito para exploração noturna.</span>
+            </div>
+        </div>
+
+        <div class="theme-modal-footer">
+            <div class="remember-choice">
+                <input type="checkbox" id="remember-theme-choice" checked>
+                <label for="remember-theme-choice">Lembrar minha escolha</label>
+            </div>
+            <button id="save-theme-btn" class="btn btn-primary">Começar a Explorar</button>
+        </div>
+    </div>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="js/supabaseClient.js"></script>
+    <script src="js/session.js"></script>
+    <script src="js/landing-page.js"></script> 
+    <script src="js/theme-modal.js"></script>
+</body>
+</html>
